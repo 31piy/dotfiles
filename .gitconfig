@@ -46,6 +46,7 @@
   a = add
   aa = add --all
   pr = pull --rebase
+  rc = rebase --continue
   # grep on filename
   f = "!git ls-files | grep -i"
   # }}}

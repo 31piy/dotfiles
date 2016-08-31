@@ -95,3 +95,7 @@
   theirs = "!f() { git co --theirs $@ && git add $@; }; f"
   #list remotes
   rem="!git config -l | grep remote.*url | tail -n +2"
+  #prune remote
+  rp="remote prune"
+[push]
+  default = simple

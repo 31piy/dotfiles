@@ -98,4 +98,6 @@
   #prune remote
   rp="remote prune"
 [push]
-	default = simple
+  default = simple
+[pager]
+  branch = false

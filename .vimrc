@@ -1,5 +1,12 @@
 set number
-set smartindent
-
 syntax on
-colorscheme darcula
+filetype plugin indent on
+
+" show existing tab
+set tabstop=2
+
+" when indenting with '>'
+set shiftwidth=2
+
+" on pressing tab
+set expandtab

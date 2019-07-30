@@ -1,3 +1,7 @@
+call plug#begin('~/.local/share/nvim/plugged')
+
+Plug 'kaicataldo/material.vim'
+
 set number
 syntax on
 filetype plugin indent on

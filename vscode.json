@@ -1,0 +1,43 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Roboto Mono, Menlo, Monaco, 'Courier New', monospace",
+
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.blame.avatars": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.recentChanges.highlight.locations": [
+        "gutter",
+        "line",
+        "overview"
+    ],
+    "gitlens.statusBar.reduceFlicker": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    "window.zoomLevel": 0,
+    
+    "workbench.startupEditor": "none",
+    "workbench.fontAliasing": "auto",
+    "workbench.colorTheme": "One Dark Pro Vivid",
+}

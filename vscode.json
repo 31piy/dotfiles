@@ -10,6 +10,7 @@
     ],
     "editor.tabSize": 2,
     "editor.fontFamily": "Roboto Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12,
 
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
@@ -41,3 +42,4 @@
     "workbench.fontAliasing": "auto",
     "workbench.colorTheme": "One Dark Pro Vivid",
 }
+

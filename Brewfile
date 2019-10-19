@@ -10,6 +10,7 @@ tap 'caskroom/cask'
   brew 'yarn'
 
   cask 'brave-browser'
+  cask 'mark-text'
   cask 'postman'
   cask 'spotify'
   cask 'visual-studio-code'

@@ -8,10 +8,13 @@
     120
   ],
   "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.lineHeight": 20,
   "editor.insertSpaces": true,
+
+  "extensions.ignoreRecommendations": false,
 
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
@@ -36,6 +39,8 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.codeLens.enabled": false,
 
+  "howIVSCode.userIdentificationKey": " 9d86c593243a6731774704041f837a",
+
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "telemetry.enableTelemetry": false,
@@ -51,9 +56,8 @@
   "workbench.startupEditor": "none",
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "workbench.colorTheme": "GitHub Sharp",
   "workbench.statusBar.visible": true,
-  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "GitHub Sharp",
 
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -68,6 +72,10 @@
   },
 
   "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 }

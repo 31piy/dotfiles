@@ -9,6 +9,12 @@ Clone this repo
 git clone https://github.com/31piy/dotfiles.git
 ```
 
+Install the apps from Brewfile
+
+```bash
+brew bundle
+```
+
 Setup the files and symlinks
 
 ```bash

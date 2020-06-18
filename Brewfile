@@ -11,8 +11,8 @@ brew "htop"
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Internet file retriever
 brew "wget"
-# JavaScript package manager
-brew "yarn"
 cask "mark-text"

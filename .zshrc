@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export EDITOR=nvim
+export EDITOR=vim
 
 # Configure FZF
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border --preview 'head -100 {}'"

@@ -4,9 +4,12 @@
   diff = auto
   status = auto
 
+[core]
+  editor = vim
+
 [user]
   name = Piyush Sonagara
-  email =
+  email = piyush.sonagara@cohesity.com
 
 [color "branch"]
   current = red reverse
@@ -53,7 +56,7 @@
   # commit {{{
   cm = commit -m
   cma = commit -a -m
-  ca = commit --amend
+  ca = commit --amend --no-edit
   amend = commit --amend
   caa = commit -a --amend -C HEAD
   # }}}
@@ -85,6 +88,8 @@
   sl = stash list
   sa = stash apply
   ss = stash save
+  su = stash -u
+  sp = stash pop
   # }}}
   # various useful {{{
   # last tag created
@@ -101,3 +106,5 @@
   default = simple
 [pager]
   branch = false
+[advice]
+  skippedCherryPicks = false
